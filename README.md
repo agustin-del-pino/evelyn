@@ -2,7 +2,7 @@
 Lib that pretends use events for manage the Ardunio flow.
 
 ## C or C++?
-For now, the lib is quite C++ more than C, that because the lib use classes, but in the future I pretend switch to full C.
+For now, the lib is quite C++ more than C, that's because the lib use classes, but in the future I pretend switch to full C.
 
 
 ## Infrastructure
@@ -40,7 +40,7 @@ This interface is the way someone can create an event. There are three method to
 _Do this inside the setup Arduino function._
 
 Already created the Event, just use the `useEvent()` method from `Evelyn`class for register it.
-As first param is needed pass the `eventId` (there are many MACROs inside the lib for that), and as second, the new instance of the event.
+As first param is necessary to pass the `eventId` (there are many MACROs inside the lib for that), and as second, the new instance of the event.
 
 
 ```cpp
