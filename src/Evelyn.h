@@ -1,3 +1,6 @@
+#ifndef EVELYN_EVELYN_H
+#define EVELYN_EVELYN_H
+
 /* Event Ids for Digital Pins */
 #define EV_ID_PIN_0 0
 #define EV_ID_PIN_1 1
@@ -93,7 +96,7 @@ public:
      *
      * Use default C++ deconstructor.
      */
-    ~Event() = default;
+    virtual ~Event() = default;
     ;
 
     /**
@@ -115,3 +118,5 @@ public:
      */
     virtual bool canBeTrigger() = 0; // .
 };
+
+#endif //EVELYN_EVELYN_H
